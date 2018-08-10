@@ -1,0 +1,99 @@
+
+.tendency_row {
+	margin-left: 100px;
+	width: 600px;
+}
+
+.tendency_figure {
+	margin-left: 230px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: 300px;
+	height: 15px;
+	border-radius: 5px;
+	background: #d3d3d3;
+	outline: none;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #002b5a;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #4CAF50;
+	cursor: pointer;
+}
+
+.tendency_name {
+	float: left;
+	width: 100px;
+	color: #002b5a;
+	text-align: center;
+}
+
+.tendency_vlaue {
+	float: left;
+	width: 300px;
+}
+
+.prof_detail_div {
+	width: 860px;
+	background-color: white;
+	border-radius: 7px;
+	font-family: '³ª´®½ºÄù¾î¶ó¿îµå', NanumSquareRoundEB;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.profile_detail_row label {
+	line-height: 40px;
+}
+
+.profile_detail_row label:first-child {
+	margin-left: 40px;
+	width: 150px;
+	text-align: center;
+	color:
+}
+
+.prof_detail_div>p {
+	padding-top: 10px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.member_info {
+	
+}
+
+.profile_detail_row:last-child {
+	margin-bottom: 30px;
+}
+
+.my_hr {
+	width: 780px;
+	margin: 20px auto;
+}
+
+#role_name{
+	color:gray;
+	margin-left:-50px;
+}
+
